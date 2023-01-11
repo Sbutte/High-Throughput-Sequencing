@@ -9,15 +9,15 @@ Cells --> Chromosomes --> Genes (Collection of active & Non-active genes) --> RN
  ### Steps invovled in RNA-Seq:
   1) Prepare a sequencing library
         a. Isolate teh RNA
-        b. Break the RNA into small fragments ( as RNA fragments are 1000s BP long. Sequencing    machine can sequence only short fragments.
+        b. Break the RNA into small fragments ( *as RNA fragments are 1000s BP long. Sequencing machine can sequence only short fragments.*)
         c. Convert the RNA fragment into Double stranded DNA. 
-          *This is done mainly because Double stranded DNAs are more stable compared to RNA and can easily be modified.*
+          (*This is done mainly because Double stranded DNAs are more stable compared to RNA and can easily be modified.*)
         d. Add Sequencing adaptors. 
-          *This allows sequencing machine to recongnize different fragments and allows us to sequence different samples at a time.*
+         (*This allows sequencing machine to recongnize different fragments and allows us to sequence different samples at a time.*)
          e. PCR amplification
-         *Fragments with PCR adaptors are amplified.*
+         (*Fragments with PCR adaptors are amplified.*)
          f. Quality Control
-         * Check Library Concentration and Library Fragment Length*  
+         (*Check Library Concentration and Library Fragment Length*)  
          
   3) Sequence
   4) Data Analysis
