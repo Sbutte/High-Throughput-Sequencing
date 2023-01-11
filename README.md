@@ -19,9 +19,18 @@ Cells --> Chromosomes --> Genes (Collection of active & Non-active genes) --> RN
          f. Quality Control
          (*Check Library Concentration and Library Fragment Length*)  
          
-  3) Sequence
-  4) Data Analysis
-
+  2) Sequence
+        a) DNA Fragments are laid out on Flow cell. One grid can have around 400,000,000 Fragments laid out vertically.
+        b) The machine has color coded fluorescent probes to identify the nucleotides.Probes are attacehd to first base in each sequence.
+        c) Raw data file 
+       1st line : @ --- : indicates the unique sequence code.
+       2nd line : contains the bases acalled for sequence fragment
+       3rd line : + :  Always a plus Character
+       4th line : QC score for each fragment
+     
+  3) Data Analysis
+        a) plot the data Genes Vs Count using PCA
+        b) Identify differential Expressed genes between Normal or Mutatated cells. Usally done using edgeR or DESeq2.
 
 
 ## Referenes -
